@@ -4,9 +4,7 @@ import ExpedienteTemplate from '../General/ExpedienteTemplate'
 const datos = [
     {nombre: 'Comprobante de comicilio', url: 'https://www.uab.edu/vsrc/images/manuals/How_to_create_a_read_only_PDF.pdf',FechaCulminacion: '19/5/2021 16:1:11' },
     {nombre: 'Comprobante de nomina', url: 'https://www.uab.edu/vsrc/images/manuals/How_to_create_a_read_only_PDF.pdf',FechaCulminacion: '19/5/2021 16:1:11' },
-    {nombre: 'Comprobante de comicilio', url: 'https://www.uab.edu/vsrc/images/manuals/How_to_create_a_read_only_PDF.pdf',FechaCulminacion: '19/5/2021 16:1:11' },
-    {nombre: 'Comprobante de nomina', url: 'https://www.uab.edu/vsrc/images/manuals/How_to_create_a_read_only_PDF.pdf',FechaCulminacion: '19/5/2021 16:1:11' },
-
+ 
 ];
 
 const ContenidoMap = datos.map((datos) =>

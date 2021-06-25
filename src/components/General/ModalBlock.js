@@ -14,9 +14,7 @@ export default class ModalBlock extends Component {
               <div className="modal-body">
                 {this.props.children}
               </div>
-              <div className="modal-footer">
-                <button type="button" className="btn btn-primary">Cerrar</button>
-              </div>
+             
             </div>
           </div>
         </div>
