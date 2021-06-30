@@ -1,15 +1,20 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 import firebase from 'firebase/app';
-import 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDAzXgpD9_t0xOn8qjAQoHbjeYIAUQgTT4",
-    authDomain: "althacare-c4bbc.firebaseapp.com",
-    projectId: "althacare-c4bbc",
-    storageBucket: "althacare-c4bbc.appspot.com",
-    messagingSenderId: "1018347193310",
-    appId: "1:1018347193310:web:766bffb9e417fb07f4934f",
-    measurementId: "G-47G129CMYF"
-  };
-  firebase.initializeApp(firebaseConfig);
-  export const db = firebase.firestore();
+  apiKey: "AIzaSyD-2ADhgMux5YEkDJ_grTTLUBcwW3k5a5U",
+  authDomain: "althacare-8ffea.firebaseapp.com",
+  databaseURL: "https://althacare-c4bbc-default-rtdb.firebaseio.com/",
+  projectId: "althacare-8ffea",
+  storageBucket: "althacare-8ffea.appspot.com",
+  messagingSenderId: "279218096608",
+  appId: "1:279218096608:web:c13bc50cab6c5085db8385",
+  measurementId: "G-C773S8WPW7"
+};
+  class Firebase {
+    constructor() {
+      app.initializeApp(firebaseConfig);
+    }
+  }
+   
+  export default Firebase;

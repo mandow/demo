@@ -7,6 +7,16 @@ import Facturas from './components/Facturas/Facturas';
 import Perfil from './components/Perfil/Perfil';
 import Detalles from './components/Casos/Detalles';
 import Reportes from './components/Reportes/Reportes'
+import Producto from './components/Productos/Producto';
+import Doctores from './components/Doctores/Doctores';
+import AgregarDoctor from './components/Doctores/AgregarDoctor';
+import Pacientes from './components/Pacientes/Pacientes'
+import EditarDoctor from './components/Doctores/EditarDoctor';
+import EditarPaciente from './components/Pacientes/EditarPaciente';
+import AgregarPaciente from './components/Pacientes/AgregarPaciente';
+import AgregarProducto from './components/Productos/AgregarProducto';
+import EditarProducto from './components/Productos/EditarProducto';
+import AgregarCaso from './components/Casos/AgregarCaso';
 
 import { MyProvider } from './Context';
 
@@ -25,6 +35,9 @@ class App extends Component {
           <Route path="/casos">
             <Casos />
           </Route>
+          <Route path="/agregar-caso">
+            <AgregarCaso />
+          </Route>
           <Route path="/editar-caso/:caso">
             <Detalles />
           </Route>
@@ -33,6 +46,33 @@ class App extends Component {
           </Route>
           <Route path="/perfil">
             <Perfil />
+          </Route>
+          <Route path="/productos">
+            <Producto />
+          </Route>
+          <Route path="/doctores">
+            <Doctores />
+          </Route>
+          <Route path="/pacientes">
+            <Pacientes />
+          </Route>
+          <Route path="/editar-doctor">
+            <EditarDoctor />
+          </Route>
+          <Route path="/agregar-doctor">
+            <AgregarDoctor />
+          </Route>
+          <Route path="/agregar-paciente">
+            <EditarPaciente />
+          </Route>
+          <Route path="/editar-paciente">
+            <AgregarPaciente />
+          </Route>
+          <Route path="/editar-producto">
+            <EditarProducto />
+          </Route>
+          <Route path="/agregar-producto">
+            <AgregarProducto />
           </Route>
       </Layout>
     </Router>

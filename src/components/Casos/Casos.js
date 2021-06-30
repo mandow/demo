@@ -69,6 +69,11 @@ export default class Casos extends Component {
         return (
 
             <Contenido categoria="Casos">
+                <div className="mb-3 text-right">
+                    <a href={`agregar-producto`}>
+                        <button className="btn btn-primary ">Agregar Caso</button>
+                    </a>
+                </div>
                 <div className="table-responsive">
                     <table className="table align-items-center table-flush">
                         <thead className="thead-light">
@@ -88,16 +93,6 @@ export default class Casos extends Component {
                         </tbody>
                     </table>
                 </div>
-
-
-
-
-
-
-
-
-
-
             </Contenido>
         )
     }

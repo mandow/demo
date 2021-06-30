@@ -1,4 +1,4 @@
-import React, { Children, Component } from 'react'
+import React, { Chidren, Component } from 'react'
 
 export default class ModalBlock extends Component {
     render(props) {

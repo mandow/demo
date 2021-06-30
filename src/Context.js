@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { db} from './firebase';
+//import { db} from './firebase';
 
 
 // Create a context
@@ -11,20 +11,6 @@ export class MyProvider extends Component {
   }
   componentDidMount() {
 
-  }
-
-  InserData = ()=>{
-    db.collection("cities").doc("LA").set({
-        name: "Mexico",
-        state: "TEX",
-        country: "LA"
-    })
-    .then(() => {
-        console.log("Se ha insertado correctamente");
-    })
-    .catch((error) => {
-        console.error("Error al guardar el documento: ", error);
-    });
   }
 
   render() {
