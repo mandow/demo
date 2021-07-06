@@ -38,7 +38,7 @@ const Layout = (props) => {
                 <img alt="imagen de placeholder" src={ImagenPerfil} />
               </span>
               <div className="media-body  ml-2  d-none d-lg-block">
-                <span className="mb-0 text-sm  font-weight-bold">John Snow</span>
+                <span className="mb-0 text-sm  font-weight-bold">Nombre de usuario</span>
               </div>
             </div>
           </div>

@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import Contenido from '../General/Contenido'
+
 
 export default class Reportes extends Component {
     render() {
         return (
-            <div>
-                Reportes
-            </div>
+            <Contenido categoria="Facturas">
+             No hay datos registrados.
+        </Contenido>
         )
     }
 }

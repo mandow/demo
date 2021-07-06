@@ -18,9 +18,9 @@ export default class MenuExpandido extends Component {
           {/* Nav items */}
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="dashboard.html">
+              <a className="nav-link" href="/home">
                 <i className="ni ni-tv-2 text-red" />
-                <span className="nav-link-text">Dashboard</span>
+                <span className="nav-link-text">Inicio</span>
               </a>
             </li>
             <li className="nav-item">
@@ -35,13 +35,13 @@ export default class MenuExpandido extends Component {
                 <span className="nav-link-text">Facturacion</span>
               </a>
             </li>
-            <li className="nav-item" hidden>
+            <li className="nav-item" >
               <a className="nav-link " href="/reportes">
                 <i className="ni ni-bullet-list-67 text-red" />
                 <span className="nav-link-text">Reportes</span>
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" hidden>
               <a className="nav-link " href="/doctores">
                 <i className="ni ni-circle-08 text-red" />
                 <span className="nav-link-text">Doctores</span>
@@ -53,7 +53,7 @@ export default class MenuExpandido extends Component {
                 <span className="nav-link-text">Productos</span>
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" hidden>
               <a className="nav-link " href="/pacientes">
                 <i className="ni ni-satisfied text-red" />
                 <span className="nav-link-text">Pacientes</span>

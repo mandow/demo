@@ -208,7 +208,7 @@ export default class FormDatosPersonales extends Component {
                     </div>
                 </div>
                 <button type="submit" className="btn btn-primary mb-4">
-                    Submit
+                    Enviar
                 </button>
             </form>
             </div>

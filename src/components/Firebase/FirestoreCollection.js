@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class Importacion extends Component {
+export default class FirestoreCollection extends Component {
     render() {
         return (
             <div>
-                Sin datos de importacion
+                
             </div>
         )
     }

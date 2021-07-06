@@ -17,6 +17,7 @@ import AgregarPaciente from './components/Pacientes/AgregarPaciente';
 import AgregarProducto from './components/Productos/AgregarProducto';
 import EditarProducto from './components/Productos/EditarProducto';
 import AgregarCaso from './components/Casos/AgregarCaso';
+import Landing from './components/Landing/Landing';
 
 import { MyProvider } from './Context';
 
@@ -24,9 +25,12 @@ class App extends Component {
   render() {
     return (
       <MyProvider> 
-      <Router>
-        <Layout>
+          <Router>
           <Route exact path="/">
+            <Home />
+          </Route>
+         <Layout>
+          <Route exact path="/home">
             <Home />
           </Route>
           <Route path="/facturas">

@@ -5,7 +5,7 @@ export default class Facturas extends Component {
     render() {
         return (
             <Contenido categoria="Facturas">
-                Facturas
+                No hay facturas registradas.
             </Contenido>
         )
     }

@@ -70,7 +70,7 @@ export default class Casos extends Component {
 
             <Contenido categoria="Casos">
                 <div className="mb-3 text-right">
-                    <a href={`agregar-producto`}>
+                    <a href={`agregar-caso`}>
                         <button className="btn btn-primary ">Agregar Caso</button>
                     </a>
                 </div>
